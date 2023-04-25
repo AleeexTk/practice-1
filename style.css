@@ -1,0 +1,78 @@
+:root {
+  --background-color: #ffffff;
+  --secondary-background-color: #f6f6f8;
+  --title-title-color: #000000;
+  --secondary-title-color: #323232;
+  --text-color: #999999;
+  --secondary-text-color: #4985ff;
+}
+
+/* TAG*/ /* TAG*/ /* TAG*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+  background-color: var(--secondary-background-color);
+  font-size: 13px;
+  line-height: 21px;
+}
+a {
+  text-decoration: none;
+  font-family: inherit;
+  color: var(--background-color);
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  font-family: inherit;
+}
+h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: var(--background-color);
+}
+h2 {
+  color: var(--secondary-title-color);
+}
+h3 {
+  color: var(--title-title-color);
+}
+button {
+  background-color: var(--secondary-text-color);
+  color: var(--background-color);
+}
+span {color: #4985ff;}
+
+/* CLASS */ /* CLASS */
+/* CLASS */
+/* header+hero  */
+.header-item,
+.hero-text {
+  color: var(--background-color);
+}
+.background-photo {
+  background-color:tomato;
+}
+
+/* portfolio */
+.portfolio-link {
+  background-color: var(--secondary-text-color);
+  color: var(--background-color);
+}
+
+/* specialization */
+.specialization {
+  background-color: tomato;
+}
+.specialization-title {
+  color: tomato;
+}
+
+/* video */
+.video {
+  background-color: tomato;
+}
+.video-title,
+.video-text {
+  color: var(--background-color);
+}
