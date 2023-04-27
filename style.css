@@ -74,8 +74,7 @@ header {
   background-color: aqua;
   border-bottom: 1px solid #a1a1a1;
 }
-.header-container {
-}
+
 .backg .header-item,
 .hero-text {
   color: var(--background-color);
@@ -106,7 +105,7 @@ header {
 
 .container {
   outline: 1px solid red;
-  width: 1140px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -175,7 +174,7 @@ header {
   background-color: var(--third-background-color);
 }
 .survisies-container {
-  width: 1113px;
+  width: 1200px;
   text-align: center;
 }
 .survisies-title {
@@ -223,24 +222,35 @@ header {
   padding: 13px 36px;
   border-radius: 30px;
 }
+/* Portfolio  */
 
 .portfolio {
   background-color: var(--secondary-background-color);
-  width: 1200px;
+
   padding-top: 100px;
   padding-bottom: 70px;
+  padding-left: 405px;
+  padding-right: 405px;
 }
 .portfolio-container {
   margin-top: 100px;
   margin-bottom: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  text-align: center;
 }
 .portfolio-dual {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 42px;
+  align-items: center;
 }
 .portfolio-dual-item {
   text-align: left;
   max-width: 350px;
+  display: inline-block;
+  gap: 121px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -248,21 +258,44 @@ header {
   line-height: 53px;
   text-align: left;
   min-width: 424px;
+  margin-top: 52;
 }
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
   text-align: left;
+  min-width: 489px;
+  margin-top: 60px;
+}
+.portfolio-img {
+  width: 500px;
+  display: flex;
 }
 
 .portfolio-link {
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 16px;
   line-height: 20px;
-
   text-align: left;
 }
+.portfolio-list {
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.portfolio-item {
+  display: flex;
+  max-width: 105px;
+}
+.portfolio-item-text {
+  display: flex;
+}
 
-.portfolio-img {
+/* OUR SPECIALIZATION */
+
+.specialization {
+  width: 1920px;
 }
