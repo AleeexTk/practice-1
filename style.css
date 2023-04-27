@@ -68,9 +68,11 @@ img {
 }
 
 /* CLASS */ /* CLASS */ /* CLASS */
+
 /* header+hero  */
 header {
-  background-color: var(--secondary-text-color);
+  background-color: aqua;
+  border-bottom: 1px solid #a1a1a1;
 }
 .header-container {
 }
@@ -220,4 +222,47 @@ header {
 .survisies-button {
   padding: 13px 36px;
   border-radius: 30px;
+}
+
+.portfolio {
+  background-color: var(--secondary-background-color);
+  width: 1200px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.portfolio-container {
+  margin-top: 100px;
+  margin-bottom: 160px;
+}
+.portfolio-dual {
+  display: flex;
+  justify-content: space-around;
+}
+.portfolio-dual-item {
+  text-align: left;
+  max-width: 350px;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: left;
+  min-width: 424px;
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.portfolio-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: left;
+}
+
+.portfolio-img {
 }
