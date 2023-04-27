@@ -1,6 +1,7 @@
 :root {
   --background-color: #ffffff;
   --secondary-background-color: #f6f6f8;
+  --third-background-color: #e5e5e5;
   --title-title-color: #000000;
   --secondary-title-color: #323232;
   --text-color: #999999;
@@ -8,7 +9,6 @@
 }
 
 /* RESET*/
-
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -26,18 +26,35 @@ ul {
   list-style: none;
   text-decoration: none;
   font-family: inherit;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-weight: 800;
   font-size: 48px;
   color: var(--background-color);
+  line-height: 64px;
 }
 h2 {
   color: var(--secondary-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
 }
 h3 {
   color: var(--title-title-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
 }
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 button {
   background-color: var(--secondary-text-color);
   color: var(--background-color);
@@ -45,18 +62,22 @@ button {
 span {
   color: #4985ff;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 
-/* CLASS */ /* CLASS */
-/* CLASS */
+/* CLASS */ /* CLASS */ /* CLASS */
 /* header+hero  */
-.header-item,
+header {
+  background-color: var(--secondary-text-color);
+}
+.header-container {
+}
+.backg .header-item,
 .hero-text {
   color: var(--background-color);
 }
-.background-photo {
-  background-color: tomato;
-}
-
 /* portfolio */
 .portfolio-link {
   background-color: var(--secondary-text-color);
@@ -78,4 +99,125 @@ span {
 .video-title,
 .video-text {
   color: var(--background-color);
+}
+/* class.block's */
+
+.container {
+  outline: 1px solid red;
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.button {
+  min-width: 200px;
+  height: 45px;
+  background-color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* BLOCK'S */
+
+/* header  */
+.header {
+  padding: 40px 0;
+}
+.header-list {
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20/16;
+  color: var(--background-color);
+}
+
+/* HERO */
+.hero {
+  padding-top: 220px;
+  padding-bottom: 335px;
+  background-color: aqua;
+  text-align: center;
+}
+.hero-text {
+  margin-bottom: 20px;
+}
+.hero-title {
+  margin-bottom: 50px;
+
+  line-height: 20/16;
+  max-width: 829px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Our poslugi */
+
+.survisies {
+  padding-top: 110px;
+  padding-bottom: 105px;
+  background-color: var(--third-background-color);
+}
+.survisies-container {
+  width: 1113px;
+  text-align: center;
+}
+.survisies-title {
+  max-width: 739px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.survisies-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.survisies-list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 55px;
+}
+.survisies-item {
+  display: flex;
+}
+
+.survisies-img {
+  max-width: 110px;
+}
+
+.survisies-list-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 222px;
+}
+
+.survisies-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  max-width: 222px;
+}
+.survisies-button {
+  padding: 13px 36px;
+  border-radius: 30px;
 }
